@@ -1,0 +1,79 @@
+.track{
+	width: 550px;
+	height: 130px;
+	border-radius: 0px;
+	margin-top: 50px;
+	border-right: 1px solid white;
+
+}
+
+.track img{
+	max-width: 130px;
+	max-height: 130px;
+}
+
+.track-source{
+	width: 40px;
+	color: #BBB;
+	display: inline-block;
+	height: 100%;
+	vertical-align: top;
+	margin-right: -5px;
+	border-left: 2px solid white;
+}
+
+.track-source.soundcloud{
+	border-color: #f50;
+}
+
+.track-source.youtube{
+	border-color: #e62117;
+}
+
+.track-source.spotify{
+	border-color: #84bd00;
+}
+
+.track-source p{
+	transform: rotate(-90deg);
+	margin-top: 95px;
+	margin-left: -15px;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+.track-right-container{
+	display: inline-block;
+	padding-left: 15px;
+	vertical-align: top;
+}
+
+.track-info{
+	width: 330px;
+}
+
+.track-artist{
+	color: #BBB;
+	font-size: 20px;
+}
+
+.track-name{
+	margin-top: 5px;
+	color: #FBFBFB;
+	font-size: 20px;
+}
+
+.track-duration{
+	margin-top: 10px;
+	color: #BBB;
+	font-size: 15px;
+}
+
+.track-controls{
+	margin-top: 20px;
+}
+
+.track-controls button{
+	margin-right: 8px;
+	vertical-align: top;
+}
